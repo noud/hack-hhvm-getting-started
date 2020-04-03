@@ -1,0 +1,24 @@
+{
+    "name": "noud/hack-hhvm-getting-started",
+    "description": "Hack HHVM getting started",
+    "type": "project",
+    "require": {
+        "hhvm": "^4.51"
+    },
+    "provide" : { "ext-intl" : "*", "ext-gmp": "*" },
+    "require-dev": {
+        "hhvm/hhast": "^4.41",
+        "hhvm/hacktest": "^2.1",
+        "facebook/fbexpect": "^2.7"
+    },
+    "conflict": {
+        "php": "^7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Noud de Brouwer",
+            "email": "noud4@home.nl"
+        }
+    ]
+}
